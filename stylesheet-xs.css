@@ -1,0 +1,608 @@
+html {
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#main-header {
+	background-color: #303030;
+	width: 100%;
+	border-radius: 0;
+}
+
+#header-logo {
+	height: 5rem;;
+}
+
+.navbar {
+	margin: 0 5%;
+	background-color: #303030;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+.navbar-nav .nav-item .nav-link:link, .nav-link:link,
+.navbar-nav .nav-item .nav-link:visited, .nav-link:visited {
+	color: white;
+	font-size: 1.25em;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover, .nav-link:hover,
+.navbar-nav .nav-item .nav-link:active, .nav-link:active {
+	color: white;
+	font-size: 1.25em;
+	text-decoration: underline;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#give-button {
+	color: white;
+	background-color: #386E93;
+	border-color: #386E93;
+	box-shadow: none;
+	font-size: 1.25em;
+	font-family: 'Nunito Sans', sans-serif; !important;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+}
+
+#give-button:hover, #give-button:active {
+	background-color: #386E93;
+	border-color: white;
+	font-size: 1.25em;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#intro-text {
+	max-width: 1366;
+	margin: 0 5%;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#training-img {
+	width: 100%;
+	height: 800px;
+	object-fit: cover;
+}
+
+#career-over-h1 {
+	font-size: 2.5em;
+	font-weight: bold;
+	padding-top: 2em;
+	padding-bottom: 0.25em;
+	max-width: 690px;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#prevents-and-treats-h2 {
+	font-size: 1.5em;
+	max-width: 625px;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#learn-more-button {
+	color: #303030;
+	border-color: #FADD4F;
+	background-color: #FADD4F;
+	box-shadow: none;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-top: 2em;
+	font-size: 1.5em;
+	border-radius: 8px;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#learn-more-button:hover, #learn-more-button:active {
+	border-color: #928E90;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#training-div {
+	border-radius: 0;
+}
+
+.div {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+#what-we-do-rehab-card {
+	padding: 0;
+}
+
+#our-team-intro {
+	max-width: 1366; 
+	margin: 0 5%;
+	padding-bottom: 4em;
+	padding-top: 1em;
+}
+
+#apply-intro {
+	max-width: 1366; 
+	margin: 0 5%;
+	padding-top: 1em;
+}
+
+#what-we-do-intro {
+	max-width: 1366; 
+	margin: 0 5%;
+	padding-top: 1em;
+}
+
+#checklist-intro, #give-text-1 {
+	max-width: 1366; 
+	margin: 0 5%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#give-text-2 {
+	max-width: 1366; 
+	margin: 0 5%;
+	padding-bottom: 1em;
+}
+
+.checklist-body {
+	max-width: 1366; 
+	margin: 0 5%;
+}
+
+.what-we-do-header {
+	color: #386E93;
+	font-size: 3.5em;
+	font-family: 'Nunito Sans', sans-serif; !important;
+	max-width: 1366; 
+	margin: 0 5%;
+}
+
+.what-we-do-subheader {
+	color: #303030;
+	font-size: 2em;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#what-we-do-subheader-rehab {
+	max-width: 1366; 
+	margin: 0 5%;
+	padding-top: 1em;
+}
+
+#what-we-do-subheader-education {
+	max-width: 1366; 
+	margin: 0 5%;
+	padding-top: 1em;
+}
+
+.what-we-do-text {
+	color: #303030;
+	font-size: 1.2em;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#what-we-do-text-rehab {
+	max-width: 1366; 
+	margin: 0 5%;
+	padding-top: 0.5em;
+}
+
+#what-we-do-text-education {
+	max-width: 1366; 
+	margin: 0 5%;
+	padding-top: 0.5em;
+}
+
+#what-we-do-text-end {
+	max-width: 1366;
+	margin: 0 5%;
+	padding-bottom: 2em;
+}
+
+#mission-div {
+	background-color: #ECECEC;
+}
+
+#mission-text {
+	max-width: 1366; 
+	margin: 0 5%;
+	padding-top: 1em;
+}
+
+.list-text {
+	color: #303030;
+	font-size: 1.3em;
+	max-width: 1366; 
+	margin: 0 5%;
+	padding-top: 1em;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#blog-div {
+	background-color: #ECECEC;
+	padding-top: 8em;
+}
+
+
+#apply-program-div {
+	padding-bottom: 0;
+	background-color: #ECECEC;
+}
+
+
+#program-card-body {
+	background-color: white;
+	padding: 2em;
+}
+
+
+#apply-program-row {
+	padding-bottom: 4em;
+	padding-top: 4em;
+}
+
+.text-link:link, .text-link:visited {
+	color: #386E93;
+	text-decoration: underline;
+}
+
+.text-link:hover, .text-link:active, {
+	color: #386E93;
+	text-decoration: underline;
+}
+
+.card {
+	background-color: white;
+	border: none;
+}
+
+.card-img-overlay {
+	padding: 0;
+}
+
+.card-title {
+	font-weight: bold;
+}
+
+.card-body {
+	padding: 0;
+}
+
+#rehab-img, #education-img {
+	height: 657px;
+	width: 100%;
+	object-fit: cover;
+}
+
+#read-more-button, #download-application-button, #mc-embedded-subscribe-give, #sponsor-button {
+	color: white;
+	border-color: #386E93;
+	background-color: #386E93;
+	box-shadow: none;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-top: 2em;
+	font-size: 1.5em;
+	border-radius: 8px;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#read-more-button:hover, #read-more-button:active, #download-application-button:hover, #download-application-button:active, #mc-embedded-subscribe:hover, #mc-embedded-subscribe:active, #mc-embedded-subscribe-give:hover, #mc-embedded-subscribe-give:active, #sponsor-button:hover, #sponsor-button:active {
+	border-color: #386E93;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#instagram-div {
+	background-color: #E3EBED;
+}
+
+#instagram-img {
+	height: 3em;
+	width: auto;
+}
+
+#gym-footer-img {
+	width: 100%;
+	height: 307px;
+	object-fit: cover;
+}
+
+#gift-img {
+	height: 200px;
+	width: auto;
+	margin-top: 3em;
+}
+
+.footer-div {
+	background-color: #303030;
+}
+
+#footer-content {
+	margin: 0 5%;
+}
+
+.footer-title {
+	color: white;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+	padding-top: 48px;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+.footer-text {
+	color: white;
+	font-size: 1em;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#footer-logo {
+	height: 7rem;
+	width: auto;
+	padding-bottom: 0.5em;
+}
+
+#footer-mission {
+	padding-right: 20vw;
+	font-size: 1em;
+}
+
+#mc-embedded-subscribe {
+	color: white;
+	border-color: #386E93;
+	background-color: #386E93;
+	box-shadow: none;
+	padding-left: 6em;
+	padding-right: 6em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-top: 1em;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 8px;
+	font-family: 'Nunito Sans', sans-serif; !important;
+	cursor: pointer;
+}
+
+#mce-EMAIL {
+	border-radius: 8px;
+	box-shadow: none;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border: none;
+}
+
+.about-bio {
+	padding-top: 1em;
+}
+
+#about-jp-row {
+	margin-bottom: 2em;
+	margin-left: 5%;
+	margin-right: 5%;
+}	
+
+#about-cr-row, #about-zr-row {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#about-as-row {
+	margin-top: 2em;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#mce-EMAIL-give {
+	background-color: white;
+	color: #303030;
+	border-color: #303030;
+	border-width: 0.5px;
+	box-shadow: none;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-top: 2em;
+	font-size: 1.2em;
+	border-radius: 8px;
+	font-family: 'Nunito Sans', sans-serif; !important;
+	width: 300px;
+}
+
+#mc-embedded-subscribe-give {
+	width: 300px;
+	cursor: pointer;
+	margin-top: 1em;
+}
+
+
+#about-card {
+	max-width: 1366;
+	margin: 0 5%;
+}
+
+#values-list {
+	padding-left: 1em;
+	padding-bottom: 2em;
+}
+
+
+.list-text {
+	color: #303030;
+	font-size: 1.2em;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#values-card-body {
+	max-width: 90vw; 
+	margin: 0 15%;
+	padding-top: 0.5em;
+	background-color: white;
+	border-bottom-width: 8px;
+	border-bottom-style: solid;
+	border-bottom-color: #386E93;
+}
+
+#values-subheader {
+	font-family: 'Nunito Sans', sans-serif; !important;
+	text-align: center;
+	color: #386E93;
+	font-size: 3.5em;
+	font-weight: normal;
+	padding-top: 0.25em;
+}
+
+#values-background {
+	background-repeat: no-repeat;
+	border-bottom-width: 8px;
+	border-bottom-style: solid;
+	border-bottom-color: #386E93;
+}
+
+#download-application-button {
+    white-space:normal !important;
+    word-wrap: break-word; 
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#learn-more-bottom-card {
+	background-color: #35425D;
+}
+
+#learn-more-apply-link {
+	text-decoration: none;
+}
+
+#apply-program-card {
+	background-color: white;
+	border-bottom-width: 8px;
+	border-bottom-style: solid;
+	border-bottom-color: #386E93;
+}
+
+#learn-more-rehab-subheader {
+	padding-left: 1.3em;
+	padding-top: 1em;
+}
+
+#learn-more-prevent-subheader {
+	padding-top: 1em;
+	padding-right: 1.3em;
+}
+
+#learn-more-prevent-text {
+	padding-right: 2em;
+	padding-bottom: 1em;
+}
+
+#what-we-do-rehab-card, #what-we-do-education-card {
+	background-color: #ECECEC;
+	padding-bottom: 5rem;
+}
+
+#learn-more-intro-div {
+	background-color: #ecedee;
+	padding-bottom: 4em;
+}
+
+#learn-more-rehab-row {
+	margin-top: 6em;
+}
+
+#what-we-do-background {
+	background-image: url('graphics/what-we-do-background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right bottom;
+}
+
+#application-background {
+	background-image: url('graphics/application-background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right bottom;
+}
+
+#intro-header {
+	max-width: 700px;
+	font-size: 2em;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#what-we-do-div {
+	max-width: 1366; 
+	margin: 0 5%;
+}
+
+#what-we-do-intro {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	max-width: 400px;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#dark-logo-img {
+	width: 200px;
+	padding-top: 4em;
+}
+
+#what-we-do-background {
+	background-image: url('graphics/what-we-do-background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 75% 100%;
+}
+
+#injuries-link {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 0 5%;
+}
+
+#values-background {
+	height: 700px;
+	object-fit: cover;
+}
+
+#values-card-body {
+	max-width: 90vw; 
+	padding-top: 0.5em;
+	background-color: white;
+	border-bottom-width: 8px;
+	border-bottom-style: solid;
+	border-bottom-color: #386E93;
+	margin-top: 4em;
+	padding-bottom: 0.5em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+
+#what-we-do-text-end {
+	text-align: left;
+}
+
+#values-div {
+	background-color: #ECECEC;
+}
+
+
+
+
+
+
