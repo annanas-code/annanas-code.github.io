@@ -238,7 +238,10 @@ html {
 
 #program-card-body {
 	background-color: white;
-	padding: 4em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-left: 2em;
+	padding-right: 0;
 }
 
 
@@ -352,32 +355,6 @@ html {
 	font-size: 1em;
 }
 
-#mc-embedded-subscribe {
-	color: white;
-	border-color: #386E93;
-	background-color: #386E93;
-	box-shadow: none;
-	padding-left: 6em;
-	padding-right: 6em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	margin-top: 1em;
-	font-size: 1em;
-	font-weight: bold;
-	border-radius: 8px;
-	font-family: 'Nunito Sans', sans-serif; !important;	
-	cursor: pointer;
-}
-
-#mce-EMAIL {
-	border-radius: 8px;
-	box-shadow: none;
-	padding-left: 2em;
-	padding-right: 2em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	border: none;
-}
 
 .about-bio {
 	padding-left: 2em;
@@ -401,27 +378,68 @@ html {
 	font-size: 1.75em;
 }
 
+#mce-EMAIL {
+	padding: 0 2em;
+	border-radius: 8px;
+	box-shadow: none;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border: none;
+	width: 300px;
+	height: 40px;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#mc-embedded-subscribe {
+	color: white;
+	border-color: #386E93;
+	background-color: #386E93;
+	box-shadow: none;
+	padding-left: 6em;
+	padding-right: 6em;
+	margin-top: 1em;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 8px;
+	font-family: 'Nunito Sans', sans-serif; !important;
+	cursor: pointer;
+	width: 300px;
+	height: 40px;
+}
+
+#mc-embedded-subscribe:hover, #mc-embedded-subscribe:active {
+	border-color: #386E93;
+	background-color: #386E93;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 #mce-EMAIL-give {
-	background-color: white;
 	color: #303030;
 	border-color: #303030;
 	border-width: 0.5px;
 	box-shadow: none;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
 	padding-top: 1em;
 	padding-bottom: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
 	margin-top: 2em;
 	font-size: 1.2em;
 	border-radius: 8px;
 	font-family: 'Nunito Sans', sans-serif; !important;
 	width: 450px;
+	font-weight: normal;
 }
 
 #mc-embedded-subscribe-give {
 	width: 450px;
 	cursor: pointer;
 	margin-top: 1em;
+	font-size: 2em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	font-weight: normal;
 }
 
 .about-bio {
@@ -528,8 +546,6 @@ html {
 	text-align: center;
 	color: #386E93;
 	font-size: 4em;
-	padding-left: 0.1em;
-	padding-right: 0.1em;
 	font-weight: normal;
 	padding-top: 1em;
 	padding-bottom: 0.5em;
@@ -548,7 +564,7 @@ html {
 }
 
 #learn-more-bottom-text {
-	padding-left: 2em;
+	padding-left: 1em;
 	margin-bottom: 0;
 	color: white;
 	font-size: 2em;
@@ -562,7 +578,7 @@ html {
 
 
 #learn-more-bottom-img {
-	max-height: 400px;
+	max-height: 300px;
 	object-fit: cover;
 }
 
@@ -620,15 +636,144 @@ html {
 	border-top-style: solid;
 	border-top-color: #386E93;
 	padding-bottom: 0.5em;
+	padding-right: 2em;
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 }
 
-#learn-more-bottom-body {
-	padding-right: 2em;
+#learn-more-bottom-card {
+	padding-right: 5%;
+}
+
+#learn-more-rehab-subheader {
+	padding-left: 2rem;
+}
+
+#apply-intro-subheader {
+	color: white;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#apply-intro-background {
+	height: 500px;
+	object-fit: cover;
+}
+
+#apply-program-div {
+	background-color: #ECECEC;
+}
+
+#apply-intro-card-body {
+	width: 850px;
+	margin-top: 8em;
+	border-color: rgba(255,255,255,0.6);
+	border-width: 14px;
+	border-style: solid;
+	background-color: rgba(48,48,48,0.6);
+	height: 225px;
 }
 
 
+#apply-intro-header {
+	font-size: 4em;
+	font-family: 'Nunito Sans', sans-serif; !important;
+	color: white;
+	padding-bottom: 0.25em;
+	padding-top: 0.25em;
+}
 
+#apply-intro-subheader {
+	font-size: 3em;
+	color: #386E93;
+}
+
+#apply-kinetik-subheader {
+	font-size: 2.25em;
+	color: #386E93;
+	padding-bottom: 0.25em;
+}
+
+#apply-intro-text {
+	max-width: 1366;
+	margin: 0 5%;
+	padding-top: 1em;
+}
+
+#application-divider {
+	border-width: 1px;
+	border-color: #386E93;
+	border-style: solid;
+	max-width: 1366;
+	margin: 0 5%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#application-background {
+	background-image: url('graphics/application-background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right bottom;
+	padding-top: 5rem;
+}
+
+
+#application-row {
+	max-width: 1366; 
+	margin: 0 5%;
+	padding-bottom: 2em;
+	margin-top: 2em;
+}
+
+.application-box {
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #303030;
+	border-bottom-width: 6px;
+	border-bottom-color: #386E93;
+	margin-left: 1em;
+	margin-right: 1em;
+	height: 310px;
+	max-width: 200px;
+}
+
+.application-box-header {
+	color: #386E93;
+}
+
+.application-box-text {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#application-bottom-text {
+	max-width: 1366; 
+	margin: 0 5%;
+	padding-top: 4em;
+}
+
+.fa-hand-holding-heart, .fa-running, .fa-crutch {
+	font-size: 72px;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	color: #303030;
+}
+
+#download-application-button {
+	margin-bottom: 5rem;
+}
+
+
+#apply-program-img {
+	height: 700px;
+	object-fit: cover;
+}
+
+
+#apply-kinetik-subheader {
+	text-align: left;
+}

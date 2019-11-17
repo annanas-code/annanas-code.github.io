@@ -263,7 +263,10 @@ html {
 
 #program-card-body {
 	background-color: white;
-	padding: 2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-left: 2em;
+	padding-right: 0;
 }
 
 
@@ -382,24 +385,8 @@ html {
 	font-size: 1em;
 }
 
-#mc-embedded-subscribe {
-	color: white;
-	border-color: #386E93;
-	background-color: #386E93;
-	box-shadow: none;
-	padding-left: 6em;
-	padding-right: 6em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	margin-top: 1em;
-	font-size: 1em;
-	font-weight: bold;
-	border-radius: 8px;
-	font-family: 'Nunito Sans', sans-serif; !important;
-	cursor: pointer;
-}
-
 #mce-EMAIL {
+	padding: 0 2em;
 	border-radius: 8px;
 	box-shadow: none;
 	padding-left: 2em;
@@ -407,30 +394,61 @@ html {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	border: none;
+	width: 300px;
+	height: 40px;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#mc-embedded-subscribe {
+	color: white;
+	border-color: #386E93;
+	background-color: #386E93;
+	box-shadow: none;
+	padding-left: 6em;
+	padding-right: 6em;
+	margin-top: 1em;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 8px;
+	font-family: 'Nunito Sans', sans-serif; !important;
+	cursor: pointer;
+	width: 300px;
+	height: 40px;
+}
+
+#mc-embedded-subscribe:hover, #mc-embedded-subscribe:active {
+	border-color: #386E93;
+	background-color: #386E93;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #mce-EMAIL-give {
-	background-color: white;
 	color: #303030;
 	border-color: #303030;
 	border-width: 0.5px;
 	box-shadow: none;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
 	padding-top: 1em;
 	padding-bottom: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
 	margin-top: 2em;
 	font-size: 1.2em;
 	border-radius: 8px;
 	font-family: 'Nunito Sans', sans-serif; !important;
 	width: 450px;
+	font-weight: normal;
 }
 
 #mc-embedded-subscribe-give {
 	width: 450px;
 	cursor: pointer;
 	margin-top: 1em;
+	font-size: 2em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	font-weight: normal;
 }
+
 
 .about-bio {
 	padding-top: 1em;
@@ -467,8 +485,8 @@ html {
 
 #learn-more-card-body {
 	max-width: 1366; 
-	margin-left: 15%;
 	margin-right: 15%;
+	margin-left: 15%;
 	padding-top: 0.5em;
 	background-color: white;
 	border-bottom-width: 2px;
@@ -500,8 +518,6 @@ html {
 	text-align: center;
 	color: #386E93;
 	font-size: 4em;
-	padding-left: 0.1em;
-	padding-right: 0.1em;
 	font-weight: normal;
 	padding-top: 1em;
 	padding-bottom: 0.5em;
@@ -527,7 +543,7 @@ html {
 }
 
 #learn-more-rehab-text {
-	padding-left: 2em;
+	padding-left: 2rem;
 	margin-bottom: 0;
 	padding-bottom: 2em;
 }
@@ -539,7 +555,7 @@ html {
 }
 
 #apply-program-img {
-	height: 700px;
+	height: 800px;
 	object-fit: cover;
 }
 
@@ -694,8 +710,8 @@ html {
 	border-bottom-color: #386E93;
 	margin-left: 1em;
 	margin-right: 1em;
-	height: 280px;
-	width: 150px;
+	height: 310px;
+	max-width: 200px;
 }
 
 .application-box-header {
@@ -717,7 +733,7 @@ html {
 	font-size: 72px;
 	padding-top: 0.25em;
 	padding-bottom: 0.25em;
-	color: #303030l;
+	color: #303030;
 }
 
 #mission-card-body {
@@ -824,10 +840,17 @@ html {
 	text-align: center;
 }
 
-#learn-more-bottom-body {
-	margin-right: 15%;
+
+#learn-more-bottom-card {
+	padding-right: 15%;
+}
+
+#learn-more-rehab-subheader {
+	padding-left: 2rem;
 }
 
 
-
+#apply-kinetik-subheader {
+	text-align: left;
+}
 
