@@ -153,6 +153,11 @@ html {
 	margin: 0 15%;
 	padding-top: 2em;
 	padding-bottom: 1em;
+	text-align: center;
+}
+
+#three-parts {
+	text-align: center;
 }
 
 #give-text-1 {
@@ -238,11 +243,6 @@ html {
 	max-width: 1366;
 	margin: 0 15%;
 	padding-bottom: 2em;
-}
-
-
-#mission-div {
-	background-color: #ECECEC;
 }
 
 #mission-text {
@@ -528,7 +528,7 @@ html {
 	max-width: 1366; 
 	margin: 0 15%;
 	margin-bottom: 6em;
-	margin-top: 4em;
+	margin-top: 5rem;
 }
 
 #learn-more-intro-text, #learn-more-prevent-text {
@@ -596,13 +596,9 @@ html {
 	object-fit: cover;
 }
 
-#learn-more-rehab-row {
-	padding-top: 10em;
-}
-
 #learn-more-intro, #mission-intro {
-	padding-left: 4em;
-	padding-right: 4em;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 #learn-more-sponsor-button {
@@ -643,7 +639,6 @@ html {
 	border-width: 14px;
 	border-style: solid;
 	background-color: rgba(48,48,48,0.6);
-	height: 225px;
 }
 
 
@@ -670,6 +665,7 @@ html {
 	max-width: 1366;
 	margin: 0 15%;
 	padding-top: 1em;
+	text-align: center;
 }
 
 #application-divider {
@@ -692,6 +688,7 @@ html {
 
 #application-bottom-text {
 	padding-top: 1em;
+	text-align: center;
 }
 
 #application-row {
@@ -745,7 +742,7 @@ html {
 	border-top-width: 6px;
 	border-top-style: solid;
 	border-top-color: #386E93;
-	margin-top: 10em;
+	margin-top: 20em;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -784,7 +781,7 @@ html {
 	font-size: 4em;
 	font-family: 'Nunito Sans', sans-serif; !important;
 	padding-bottom: 0.5em;
-	padding-top: 1.5em;
+	padding-top: 5rem;
 }
 
 .our-story-divider {
@@ -811,8 +808,8 @@ html {
 }
 
 .our-story-intro {
-	padding-left: 4em;
-	padding-right: 4em;
+	margin: 0 5%;
+	padding-bottom: 1em;
 }
 
 #our-story-logo {

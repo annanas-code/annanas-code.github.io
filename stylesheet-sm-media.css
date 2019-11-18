@@ -210,8 +210,33 @@ html {
 	padding-bottom: 2em;
 }
 
-#mission-div {
-	background-color: #ECECEC;
+
+#mission-card-body {
+	max-width: 1366; 
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-top: 0.5em;
+	background-color: white;
+	border-top-width: 6px;
+	border-top-style: solid;
+	border-top-color: #386E93;
+	margin-top: 20em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#mission-subheader {
+	font-family: 'Nunito Sans', sans-serif; !important;
+	text-align: center;
+	color: #386E93;
+	font-size: 4em;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+	font-weight: normal;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
 }
 
 #mission-text {
@@ -297,7 +322,7 @@ html {
 	font-family: 'Nunito Sans', sans-serif; !important;
 }
 
-#read-more-button:hover, #read-more-button:active, #download-application-button:hover, #download-application-button:active, #mc-embedded-subscribe:hover, #mc-embedded-subscribe:active, #mc-embedded-subscribe-give:hover, #mc-embedded-subscribe-give:active, #sponsor-button:hover, #sponsor-button:active {
+#read-more-button:hover, #read-more-button:active, #download-application-button:hover, #download-application-button:active, #mc-embedded-subscribe:hover, #mc-embedded-subscribe:active, #mc-embedded-subscribe-give:hover, #mc-embedded-subscribe-give:active, #sponsor-button:hover, #sponsor-button:active, #sponsor-button, #learn-more-sponsor-button:active, #learn-more-sponsor-button:hover {
 	border-color: #386E93;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -561,7 +586,7 @@ html {
 	font-family: 'Nunito Sans', sans-serif; !important;
 	text-align: center;
 	color: #386E93;
-	font-size: 4em;
+	font-size: 3em;
 	font-weight: normal;
 	padding-top: 1em;
 	padding-bottom: 0.5em;
@@ -583,7 +608,7 @@ html {
 	padding-left: 5%;
 	margin-bottom: 0;
 	color: white;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 #learn-more-rehab-text {
@@ -613,13 +638,9 @@ html {
 	object-fit: cover;
 }
 
-#learn-more-rehab-row {
-	padding-top: 10em;
-}
-
 #learn-more-intro, #mission-intro {
-	padding-left: 4em;
-	padding-right: 4em;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 #learn-more-sponsor-button {
@@ -636,6 +657,7 @@ html {
 	font-size: 1.75em;
 	border-radius: 8px;
 	font-family: 'Nunito Sans', sans-serif; !important;
+	max-width: 350px;
 }
 
 #learn-more-card-body {
@@ -683,7 +705,7 @@ html {
 	border-width: 14px;
 	border-style: solid;
 	background-color: rgba(48,48,48,0.6);
-	height: 225px;
+	max-width: 90vw;
 }
 
 
@@ -693,6 +715,7 @@ html {
 	color: white;
 	padding-bottom: 0.25em;
 	padding-top: 0.25em;
+	max-width: 90vw;
 }
 
 #apply-intro-subheader {
@@ -764,6 +787,7 @@ html {
 	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 4em;
+	text-align: left;
 }
 
 .fa-hand-holding-heart, .fa-running, .fa-crutch {
@@ -782,6 +806,49 @@ html {
 	text-align: center;
 }
 
+.our-story-subheader {
+	display: flex;
+	align-items: center;
+	color: #386E93;
+	font-size: 4em;
+	font-family: 'Nunito Sans', sans-serif; !important;
+	padding-bottom: 0.5em;
+	padding-top: 5rem;
+}
+
+.our-story-divider {
+	flex-grow: 1;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #386E93;
+}
+
+#our-story-box {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #386E93;
+	padding: 0.25em;
+}
+
+#our-story-card-body {
+	max-width: 1366;
+	margin: 0 15%;
+	padding-top: 1em;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #386E93;
+}
+
+.our-story-intro {
+	margin: 0 5%;
+	padding-bottom: 1em;
+}
+
+#our-story-logo {
+	padding-top: 1em;
+	padding-bottom: 4em;
+
+}
 
 
 
