@@ -484,10 +484,11 @@ html {
 	width: 450px;
 	cursor: pointer;
 	margin-top: 1em;
-	font-size: 2em;
+	font-size: 1.75em;
 	padding-top: 0.25em;
 	padding-bottom: 0.25em;
 	font-weight: normal;
+	box-shadow: none;
 }
 
 .about-bio {
