@@ -153,6 +153,14 @@ html {
 	padding-bottom: 1em;
 }
 
+#checklist-intro {
+	text-align: left;
+}
+
+#three-parts {
+	text-align: left;
+}
+
 #give-text-2 {
 	max-width: 1366; 
 	margin: 0 5%;
@@ -211,6 +219,7 @@ html {
 	max-width: 1366;
 	margin: 0 5%;
 	padding-bottom: 2em;
+	text-align: center;
 }
 
 
@@ -381,33 +390,14 @@ html {
 }
 
 #footer-mission {
-	padding-right: 60vw;
 	font-size: 1em;
+	padding-right: 6em;
+	width: 350px;
 }
-
-
 
 .about-bio {
 	padding-top: 1em;
-}
-
-#about-jp-row {
-	margin-bottom: 2em;
-	margin-left: 5%;
-	margin-right: 5%;
-}	
-
-#about-cr-row, #about-zr-row {
-	margin-top: 2em;
-	margin-bottom: 2em;
-	margin-left: 5%;
-	margin-right: 5%;
-}
-
-#about-as-row {
-	margin-top: 2em;
-	margin-left: 5%;
-	margin-right: 5%;
+	padding-bottom: 4em;
 }
 
 #mce-EMAIL {
@@ -472,9 +462,6 @@ html {
 	padding-top: 0.25em;
 	padding-bottom: 0.25em;
 	font-weight: normal;
-}
-.about-bio {
-	padding-left: 2em;
 }
 
 #about-card {
@@ -573,9 +560,6 @@ html {
 	object-fit: cover;
 }
 
-#what-we-do-text-end {
-	text-align: left;
-}
 
 #learn-more-subheader {
 	font-family: 'Nunito Sans', sans-serif; !important;
@@ -638,6 +622,10 @@ html {
 	padding-right: 5%;
 }
 
+#learn-more-intro {
+	text-align: center;
+}
+
 #learn-more-sponsor-button {
 	color: white;
 	border-color: #386E93;
@@ -678,10 +666,12 @@ html {
 }
 
 #apply-intro-subheader {
-	color: white;
-	padding-left: 10%;
-	padding-right: 10%;
-}
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 3em;
+	color: #386E93;
+	text-align: left;
+	}
 
 #apply-intro-background {
 	height: 500px;
@@ -712,21 +702,18 @@ html {
 	max-width: 90vw;
 }
 
-#apply-intro-subheader {
-	font-size: 3em;
-	color: #386E93;
-}
-
 #apply-kinetik-subheader {
 	font-size: 2.25em;
 	color: #386E93;
 	padding-bottom: 0.25em;
+	text-align: left;
 }
 
 #apply-intro-text {
 	max-width: 1366;
 	margin: 0 5%;
 	padding-top: 1em;
+	text-align: left;
 }
 
 #application-divider {
@@ -768,6 +755,10 @@ html {
 	width: 200px;
 }
 
+#application-process-header {
+	text-align: left;
+}
+
 .application-box-header {
 	color: #386E93;
 }
@@ -793,10 +784,6 @@ html {
 
 #download-application-button {
 	margin-bottom: 5rem;
-}
-
-#apply-kinetik-subheader {
-	text-align: center;
 }
 
 .our-story-subheader {
@@ -843,8 +830,21 @@ html {
 
 }
 
+#team-subheader {
+	font-family: 'Nunito Sans', sans-serif; !important;
+	text-align: center;
+	color: #386E93;
+	font-size: 4em;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+	font-weight: normal;
+	padding-bottom: 0.5em;
+	padding-top: 1em;
+}
 
-
+#about-card {
+	max-width: 400px;
+}
 
 
 

@@ -140,10 +140,15 @@ html {
 	padding-bottom: 1em;
 }
 
+#give-text-1 {
+	text-align: left;
+}
+
 #give-text-2 {
 	max-width: 1366; 
 	margin: 0 5%;
 	padding-bottom: 1em;
+	text-align: left;
 }
 
 .checklist-body {
@@ -210,7 +215,7 @@ html {
 	margin-left: 5%;
 	margin-right: 5%;
 	padding-top: 0.5em;
-	background-color: Fwhite;
+	background-color: white;
 	border-top-width: 6px;
 	border-top-style: solid;
 	border-top-color: #386E93;
@@ -237,6 +242,7 @@ html {
 	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
+	text-align: left;
 }
 
 .list-text {
@@ -383,28 +389,11 @@ html {
 }
 
 
-
 .about-bio {
 	padding-top: 1em;
-}
-
-#about-jp-row {
-	margin-bottom: 2em;
-	margin-left: 5%;
-	margin-right: 5%;
-}	
-
-#about-cr-row, #about-zr-row {
-	margin-top: 2em;
-	margin-bottom: 2em;
-	margin-left: 5%;
-	margin-right: 5%;
-}
-
-#about-as-row {
-	margin-top: 2em;
-	margin-left: 5%;
-	margin-right: 5%;
+	padding-bottom: 4em;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 #mce-EMAIL {
@@ -539,15 +528,25 @@ html {
 
 #learn-more-rehab-subheader {
 	padding-top: 1em;
+	padding-left: 5%; 
+	padding-right: 5%;
 }
 
 #learn-more-prevent-subheader {
 	padding-top: 1em;
-	padding-right: 1.3em;
+	padding-left: 5%; 
+	padding-right: 5%;
+}
+
+#learn-more-rehab-text {
+	padding-left: 5%; 
+	padding-right: 5%;
 }
 
 #learn-more-prevent-text {
 	padding-bottom: 1em;
+	padding-left: 5%; 
+	padding-right: 5%;
 }
 
 #what-we-do-rehab-card, #what-we-do-education-card {
@@ -610,8 +609,6 @@ html {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 1.2em;
-	margin-left: 5%;
-	margin-right: 5%;
 }
 
 #values-background {
@@ -651,6 +648,8 @@ html {
 	font-weight: normal;
 	padding-top: 1em;
 	padding-bottom: 0.5em;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 
@@ -661,8 +660,8 @@ html {
 	margin-top: 4em;
 }
 
-#learn-more-intro-text {
-	padding-right: 2em;
+#learn-more-intro {
+	text-align: left;
 }
 
 #learn-more-bottom-text {
@@ -702,6 +701,10 @@ html {
 #learn-more-intro, #mission-intro {
 	padding-left: 5%;
 	padding-right: 5%;
+}
+
+#mission-intro {
+	text-align: left;
 }
 
 #learn-more-sponsor-button {
@@ -778,14 +781,16 @@ html {
 #apply-intro-subheader {
 	font-size: 3em;
 	color: #386E93;
-	margin-left: 5%;
-	margin-right: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: left;
 }
 
 #apply-kinetik-subheader {
 	font-size: 2.25em;
 	color: #386E93;
 	padding-bottom: 0.25em;
+	text-align: left;
 }
 
 #apply-intro-text {
@@ -838,6 +843,10 @@ html {
 	width: 250px;
 }
 
+#application-process-header {
+	text-align: left;
+}
+
 .application-box-header {
 	color: #386E93;
 }
@@ -866,10 +875,6 @@ html {
 	font-size: 1.35em;
 }
 
-#apply-kinetik-subheader {
-	text-align: center;
-}
-
 #learn-more-div {
 	background-color: white;
 }
@@ -878,7 +883,7 @@ html {
 	display: flex;
 	align-items: center;
 	color: #386E93;
-	font-size: 4em;
+	font-size: 3em;
 	font-family: 'Nunito Sans', sans-serif; !important;
 	padding-bottom: 0.5em;
 	padding-top: 5rem;
@@ -900,7 +905,7 @@ html {
 
 #our-story-card-body {
 	max-width: 1366;
-	margin: 0 15%;
+	margin: 0 10%;
 	padding-top: 1em;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
@@ -908,16 +913,26 @@ html {
 }
 
 .our-story-intro {
-	margin: 0 5%;
 	padding-bottom: 1em;
+	text-align: left;
 }
 
 #our-story-logo {
 	padding-top: 1em;
 	padding-bottom: 4em;
+}
 
-
-
+#team-subheader {
+	font-family: 'Nunito Sans', sans-serif; !important;
+	text-align: center;
+	color: #386E93;
+	font-size: 3em;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+	font-weight: normal;
+	padding-bottom: 0.5em;
+	padding-top: 1em;
+}
 
 
 

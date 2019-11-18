@@ -618,9 +618,12 @@ html {
 }
 
 #apply-intro-subheader {
-	color: white;
 	padding-left: 10%;
 	padding-right: 10%;
+	font-size: 3em;
+	color: #386E93;
+	text-align: center;
+	}
 }
 
 #apply-intro-background {
@@ -648,11 +651,6 @@ html {
 	color: white;
 	padding-bottom: 0.25em;
 	padding-top: 0.25em;
-}
-
-#apply-intro-subheader {
-	font-size: 3em;
-	color: #386E93;
 }
 
 #apply-kinetik-subheader {
@@ -851,3 +849,6 @@ html {
 	text-align: left;
 }
 
+#about-card {
+	max-width: 400px;
+}

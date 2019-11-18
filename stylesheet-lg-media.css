@@ -138,7 +138,6 @@ html {
 
 #what-we-do-intro {
 	max-width: 1366; 
-	margin: 0 5%;
 	padding-top: 1em;
 }
 
@@ -206,6 +205,7 @@ html {
 	max-width: 1366;
 	margin: 0 5%;
 	padding-bottom: 2em;
+	text-align: center;
 }
 
 #mission-card-body {
@@ -421,27 +421,9 @@ html {
 	font-size: 1em;
 }
 
-
 .about-bio {
-	padding-left: 2em;
-	padding-top: 0.25em;
-}
-
-#about-jp-row {
-	margin-bottom: 2em;
-}	
-
-#about-cr-row, #about-zr-row {
-	margin-top: 2em;
-	margin-bottom: 2em;
-}
-
-#about-as-row {
-	margin-top: 2em;
-}
-
-#bio-name-jp, #bio-name-cr, #bio-name-zr, #bio-name-as {
-	font-size: 1.75em;
+	padding-top: 1em;
+	padding-bottom: 4em;
 }
 
 #mce-EMAIL {
@@ -714,9 +696,9 @@ html {
 }
 
 #apply-intro-subheader {
-	color: white;
-	padding-left: 10%;
-	padding-right: 10%;
+	font-size: 3em;
+	color: #386E93;
+	text-align: center;
 }
 
 #apply-intro-background {
@@ -744,11 +726,6 @@ html {
 	color: white;
 	padding-bottom: 0.25em;
 	padding-top: 0.25em;
-}
-
-#apply-intro-subheader {
-	font-size: 3em;
-	color: #386E93;
 }
 
 #apply-kinetik-subheader {
@@ -851,4 +828,8 @@ html {
 	font-weight: normal;
 	padding-bottom: 0.5em;
 	padding-top: 1em;
+}
+
+#about-card {
+	max-width: 400px;
 }
