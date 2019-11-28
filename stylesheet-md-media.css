@@ -227,7 +227,6 @@ html {
 	max-width: 1366; 
 	margin-left: 15%;
 	margin-right: 15%;
-	padding-top: 0.5em;
 	background-color: white;
 	border-top-width: 6px;
 	border-top-style: solid;
@@ -247,7 +246,6 @@ html {
 	padding-left: 0.1em;
 	padding-right: 0.1em;
 	font-weight: normal;
-	padding-top: 1em;
 	padding-bottom: 0.5em;
 }
 
@@ -397,7 +395,7 @@ html {
 
 .about-bio {
 	padding-top: 1em;
-	padding-bottom: 4em;
+	padding-bottom: 5rem;
 }
 
 #mce-EMAIL {
@@ -526,6 +524,7 @@ html {
 #dark-logo-img {
 	width: 200px;
 	float: right;
+	padding-top: 0;
 }
 
 #what-we-do-background {
@@ -568,16 +567,18 @@ html {
 	color: #386E93;
 	font-size: 4em;
 	font-weight: normal;
-	padding-top: 1em;
 	padding-bottom: 0.5em;
 }
 
+#learn-more-rehab-subheader {
+	padding-top: 1em;
+}
 
 .learn-more-row {
 	max-width: 1366; 
 	margin: 0 5%;
-	margin-bottom: 6em;
-	margin-top: 4em;
+	margin-bottom: 5rem;
+	margin-top: 5rem;
 }
 
 #learn-more-intro-text {
@@ -593,7 +594,6 @@ html {
 
 #learn-more-rehab-text {
 	margin-bottom: 0;
-	padding-bottom: 2em;
 }
 
 
@@ -637,7 +637,6 @@ html {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	margin-top: 1.5em;
-	margin-bottom: 2em;
 	font-size: 1.75em;
 	border-radius: 8px;
 	font-family: 'Nunito Sans', sans-serif; !important;
@@ -647,7 +646,7 @@ html {
 	max-width: 1366; 
 	margin-left: 5%;
 	margin-right: 5%;
-	padding-top: 0.5em;
+	padding-top: 5rem;
 	background-color: white;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
@@ -655,7 +654,7 @@ html {
 	border-top-width: 6px;
 	border-top-style: solid;
 	border-top-color: #386E93;
-	padding-bottom: 0.5em;
+	padding-bottom: 5rem;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -772,7 +771,7 @@ html {
 #application-bottom-text {
 	max-width: 1366; 
 	margin: 0 5%;
-	padding-top: 4em;
+	padding-top: 5rem;
 	text-align: left;
 }
 
@@ -793,7 +792,7 @@ html {
 	color: #386E93;
 	font-size: 4em;
 	font-family: 'Nunito Sans', sans-serif; !important;
-	padding-bottom: 0.5em;
+	padding-bottom: 0.75em;
 	padding-top: 5rem;
 }
 
@@ -814,7 +813,6 @@ html {
 #our-story-card-body {
 	max-width: 1366;
 	margin: 0 15%;
-	padding-top: 1em;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
 	border-bottom-color: #386E93;
@@ -827,7 +825,7 @@ html {
 
 #our-story-logo {
 	padding-top: 1em;
-	padding-bottom: 4em;
+	padding-bottom: 5rem;
 
 }
 
@@ -840,13 +838,16 @@ html {
 	padding-right: 0.1em;
 	font-weight: normal;
 	padding-bottom: 0.5em;
-	padding-top: 1em;
+	padding-top: 5rem;
 }
 
 #about-card {
 	max-width: 400px;
 }
 
+#learn-more-prevent-subheader {
+	padding-top: 1em;
+}
 
 
 

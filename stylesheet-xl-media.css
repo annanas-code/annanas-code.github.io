@@ -14,7 +14,9 @@ html {
 }
 
 .navbar {
-	margin: 0 15%;
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: #303030;
 	padding-left: 0;
 	padding-right: 0;
@@ -63,8 +65,9 @@ html {
 }
 
 #intro-text {
-	max-width: 1366;
-	margin: 0 15%;
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: 'Nunito Sans', sans-serif; !important;
 }
 
@@ -127,6 +130,10 @@ html {
 	padding-bottom: 4em;
 }
 
+#what-we-do-education-card {
+	padding-bottom: 0;
+}
+
 #what-we-do-intro {
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -136,20 +143,20 @@ html {
 }
 
 #our-team-intro {
-	max-width: 1366; 
+	max-width: 1080px; 
 	margin: 0 15%;
 	padding-bottom: 4em;
 	padding-top: 1em;
 }
 
 #apply-intro {
-	max-width: 1366; 
+	max-width: 1080px; 
 	margin: 0 15%;
 	padding-top: 1em;
 }
 
 #checklist-intro {
-	max-width: 1366; 
+	max-width: 1080px; 
 	margin: 0 15%;
 	padding-top: 2em;
 	padding-bottom: 1em;
@@ -161,26 +168,27 @@ html {
 }
 
 #give-text-1 {
-	max-width: 1366; 
+	max-width: 1080px; 
 	margin: 0 15%;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
 
 #give-text-2 {
-	max-width: 1366; 
+	max-width: 1080px; 
 	margin: 0 15%;
 	padding-bottom: 1em;
 }
 
 .checklist-body {
-	max-width: 1366; 
+	max-width: 1080px; 
 	margin: 0 15%;
 }
 
 #what-we-do-div {
-	max-width: 1366; 
-	margin: 0 15%;
+	max-width: 1080px; 
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .what-we-do-header {
@@ -200,8 +208,16 @@ html {
 	color: #386E93;
 	font-size: 4em;
 	font-family: 'Nunito Sans', sans-serif; !important;
-	max-width: 1366; 
+	max-width: 1080px; 
 	margin: 0 15%;
+}
+
+#what-we-do-rehab-text-div {
+	max-width: 600px;
+}
+
+#what-we-do-education-text-div {
+	max-width: 600px;
 }
 
 
@@ -212,13 +228,13 @@ html {
 }
 
 #what-we-do-subheader-rehab {
-	margin-right: 10%;
-	padding-left: 3vw;
+	padding-left: 1rem;
+	padding-top: 0;
 }
 
 #what-we-do-subheader-education {
-	margin-left: 10%;
-	padding-right: 3vw;
+	padding-right: 1rem;
+	padding-top: 0;
 }
 
 .what-we-do-text {
@@ -228,25 +244,24 @@ html {
 }
 
 #what-we-do-text-rehab {
-	margin-right: 10%;
-	padding-left: 3vw;
+	padding-left: 1rem;
 	padding-top: 0.5em;
 }
 
 #what-we-do-text-education {
-	margin-left: 10%;
-	padding-right: 3vw;
+	padding-right: 1rem;
 	padding-top: 0.5em;
 }
 
 #what-we-do-text-end {
-	max-width: 1366;
-	margin: 0 15%;
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
 	padding-bottom: 2em;
 }
 
 #mission-text {
-	max-width: 1366; 
+	max-width: 1080px; 
 	margin: 0 15%;
 	padding-top: 1em;
 }
@@ -355,8 +370,9 @@ html {
 }
 
 #footer-content {
-	max-width: 1366;
-	margin: 0 15%;
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .footer-title {
@@ -452,7 +468,7 @@ html {
 
 .about-bio {
 	padding-top: 1em;
-	padding-bottom: 4em;
+	padding-bottom: 5rem;
 }
 
 
@@ -484,10 +500,11 @@ html {
 }
 
 #learn-more-card-body {
-	max-width: 1366; 
+	max-width: 1080px; 
 	margin-right: 15%;
 	margin-left: 15%;
-	padding-top: 0.5em;
+	padding-bottom: 5rem;
+	padding-top: 5rem;
 	background-color: white;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
@@ -495,7 +512,6 @@ html {
 	border-top-width: 6px;
 	border-top-style: solid;
 	border-top-color: #386E93;
-	padding-bottom: 0.5em;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -507,7 +523,7 @@ html {
 	text-align: center;
 	color: #386E93;
 	font-size: 4em;
-	max-width: 1366; 
+	max-width: 1080px; 
 	margin: 0 15%;
 	font-weight: normal;
 	padding-top: 0.25em;
@@ -519,15 +535,14 @@ html {
 	color: #386E93;
 	font-size: 4em;
 	font-weight: normal;
-	padding-top: 1em;
 	padding-bottom: 0.5em;
 }
 
 
 .learn-more-row {
-	max-width: 1366; 
+	max-width: 1080px; 
 	margin: 0 15%;
-	margin-bottom: 6em;
+	margin-bottom: 5rem;
 	margin-top: 5rem;
 }
 
@@ -545,7 +560,6 @@ html {
 #learn-more-rehab-text {
 	padding-left: 2rem;
 	margin-bottom: 0;
-	padding-bottom: 2em;
 }
 
 
@@ -611,7 +625,6 @@ html {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	margin-top: 1.5em;
-	margin-bottom: 2em;
 	font-size: 1.75em;
 	border-radius: 8px;
 	font-family: 'Nunito Sans', sans-serif; !important;
@@ -660,7 +673,7 @@ html {
 }
 
 #apply-intro-text {
-	max-width: 1366;
+	max-width: 1080px;
 	margin: 0 15%;
 	padding-top: 1em;
 	text-align: center;
@@ -670,7 +683,7 @@ html {
 	border-width: 1px;
 	border-color: #386E93;
 	border-style: solid;
-	max-width: 1366;
+	max-width: 1080px;
 	margin: 0 15%;
 	margin-top: 1em;
 	margin-bottom: 1em;
@@ -684,13 +697,8 @@ html {
 	padding-top: 5rem;
 }
 
-#application-bottom-text {
-	padding-top: 1em;
-	text-align: center;
-}
-
 #application-row {
-	max-width: 1366; 
+	max-width: 1080px; 
 	margin: 0 15%;
 	padding-bottom: 2em;
 	margin-top: 2em;
@@ -719,9 +727,10 @@ html {
 }
 
 #application-bottom-text {
-	max-width: 1366; 
+	max-width: 1080px; 
 	margin: 0 15%;
-	padding-top: 4em;
+	padding-top: 5rem;
+	text-align: center;
 }
 
 .fa-hand-holding-heart, .fa-running, .fa-crutch {
@@ -732,10 +741,9 @@ html {
 }
 
 #mission-card-body {
-	max-width: 1366; 
+	max-width: 1080px; 
 	margin-left: 15%;
 	margin-right: 15%;
-	padding-top: 0.5em;
 	background-color: white;
 	border-top-width: 6px;
 	border-top-style: solid;
@@ -756,7 +764,6 @@ html {
 	padding-left: 0.1em;
 	padding-right: 0.1em;
 	font-weight: normal;
-	padding-top: 1em;
 	padding-bottom: 0.5em;
 }
 
@@ -769,7 +776,7 @@ html {
 	padding-right: 0.1em;
 	font-weight: normal;
 	padding-bottom: 0.5em;
-	padding-top: 1em;
+	padding-top: 5rem;
 }
 
 .our-story-subheader {
@@ -778,7 +785,7 @@ html {
 	color: #386E93;
 	font-size: 4em;
 	font-family: 'Nunito Sans', sans-serif; !important;
-	padding-bottom: 0.5em;
+	padding-bottom: 0.75em;
 	padding-top: 5rem;
 }
 
@@ -797,9 +804,8 @@ html {
 }
 
 #our-story-card-body {
-	max-width: 1366;
+	max-width: 1080px;
 	margin: 0 15%;
-	padding-top: 1em;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
 	border-bottom-color: #386E93;
@@ -812,11 +818,11 @@ html {
 
 #our-story-logo {
 	padding-top: 1em;
-	padding-bottom: 4em;
+	padding-bottom: 5rem;
 }
 
 .card-deck {
-	max-width: 1366;
+	max-width: 1080px;
 	margin: 0 15%;
 }
 
@@ -833,6 +839,9 @@ html {
 
 #what-we-do-text-end {
 	text-align: center;
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -842,6 +851,11 @@ html {
 
 #learn-more-rehab-subheader {
 	padding-left: 2rem;
+	padding-top: 0;
+}
+
+#learn-more-prevent-subheader {
+	padding-top: 0;
 }
 
 
@@ -852,3 +866,8 @@ html {
 #about-card {
 	max-width: 400px;
 }
+
+#application-process-header {
+	text-align: center;
+}
+
