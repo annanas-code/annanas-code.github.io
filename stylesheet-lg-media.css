@@ -62,7 +62,6 @@ html {
 }
 
 #intro-text {
-	max-width: 1366;
 	margin: 0 5%;
 	font-family: 'Nunito Sans', sans-serif; !important;
 }
@@ -127,7 +126,6 @@ html {
 }
 
 #our-team-intro {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-bottom: 4em;
 	padding-top: 1em;
@@ -135,31 +133,26 @@ html {
 
 
 #apply-intro {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
 }
 
 #what-we-do-intro {
-	max-width: 1366; 
 	padding-top: 1em;
 }
 
 #checklist-intro, #give-text-1 {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
 
 #give-text-2 {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-bottom: 1em;
 }
 
 .checklist-body {
-	max-width: 1366; 
 	margin: 0 5%;
 }
 
@@ -167,7 +160,6 @@ html {
 	color: #386E93;
 	font-size: 4em;
 	font-family: 'Nunito Sans', sans-serif; !important;
-	max-width: 1366; 
 	margin: 0 5%;
 }
 
@@ -208,14 +200,12 @@ html {
 }
 
 #what-we-do-text-end {
-	max-width: 1366;
 	margin: 0 5%;
 	padding-bottom: 2em;
 	text-align: center;
 }
 
 #mission-card-body {
-	max-width: 1366; 
 	margin-left: 15%;
 	margin-right: 15%;
 	background-color: white;
@@ -241,7 +231,6 @@ html {
 }
 
 #mission-text {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
 }
@@ -271,7 +260,6 @@ html {
 }
 
 #our-story-card-body {
-	max-width: 1366;
 	margin: 0 15%;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
@@ -290,7 +278,6 @@ html {
 .list-text {
 	color: #303030;
 	font-size: 1.2em;
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
 	font-family: 'Nunito Sans', sans-serif; !important;
@@ -311,6 +298,7 @@ html {
 	padding-bottom: 2em;
 	padding-left: 2em;
 	padding-right: 0;
+	max-width: 
 }
 
 
@@ -499,7 +487,6 @@ html {
 }
 
 #about-card {
-	max-width: 1366;
 	margin: 0 5%;
 }
 
@@ -525,7 +512,6 @@ html {
 	text-align: center;
 	color: #386E93;
 	font-size: 4em;
-	max-width: 1366; 
 	margin: 0 15%;
 	font-weight: normal;
 	padding-top: 0.25em;
@@ -539,7 +525,6 @@ html {
 }
 
 #what-we-do-div {
-	max-width: 1366; 
 	margin: 0 5%;
 }
 
@@ -604,7 +589,6 @@ html {
 
 
 .learn-more-row {
-	max-width: 1366; 
 	margin: 0 5%;
 	margin-bottom: 5rem;
 	margin-top: 5rem;
@@ -669,7 +653,6 @@ html {
 }
 
 #learn-more-card-body {
-	max-width: 1366; 
 	margin-left: 5%;
 	margin-right: 5%;
 	padding-top: 5rem;
@@ -741,7 +724,6 @@ html {
 }
 
 #apply-intro-text {
-	max-width: 1366;
 	margin: 0 5%;
 	padding-top: 1em;
 	text-align: center;
@@ -751,7 +733,6 @@ html {
 	border-width: 1px;
 	border-color: #386E93;
 	border-style: solid;
-	max-width: 1366;
 	margin: 0 5%;
 	margin-top: 1em;
 	margin-bottom: 1em;
@@ -767,7 +748,6 @@ html {
 
 
 #application-row {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-bottom: 2em;
 	margin-top: 2em;
@@ -796,7 +776,6 @@ html {
 }
 
 #application-bottom-text {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 5rem;
 	text-align: center;
