@@ -251,7 +251,7 @@ html {
 	padding-top: 0.5em;
 }
 
-#what-we-do-text-end {
+.what-we-do-text-end {
 	max-width: 1080px;
 	margin-left: auto;
 	margin-right: auto;
@@ -556,7 +556,7 @@ html {
 	padding-left: 2em;
 	margin-bottom: 0;
 	color: white;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 #learn-more-rehab-text {
@@ -852,7 +852,7 @@ html {
 	background-position: right bottom;
 }
 
-#what-we-do-text-end {
+.what-we-do-text-end {
 	text-align: center;
 	max-width: 1080px;
 	margin-left: auto;

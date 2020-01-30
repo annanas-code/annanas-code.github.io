@@ -199,7 +199,7 @@ html {
 	padding-top: 0.5em;
 }
 
-#what-we-do-text-end {
+.what-we-do-text-end {
 	margin: 0 5%;
 	padding-bottom: 2em;
 	text-align: center;
@@ -574,7 +574,7 @@ html {
 	object-fit: cover;
 }
 
-#what-we-do-text-end {
+.what-we-do-text-end {
 	text-align: center;
 }
 
@@ -602,7 +602,7 @@ html {
 	padding-left: 1em;
 	margin-bottom: 0;
 	color: white;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 #learn-more-rehab-text {

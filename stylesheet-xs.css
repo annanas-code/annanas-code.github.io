@@ -200,7 +200,7 @@ html {
 	padding-top: 0.5em;
 }
 
-#what-we-do-text-end {
+.what-we-do-text-end {
 	max-width: 1366;
 	margin: 0 5%;
 	padding-bottom: 2em;
@@ -632,7 +632,7 @@ html {
 }
 
 
-#what-we-do-text-end {
+.what-we-do-text-end {
 	text-align: left;
 }
 
