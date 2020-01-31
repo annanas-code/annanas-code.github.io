@@ -696,6 +696,13 @@ html {
 	object-fit: cover;
 }
 
+
+#training-img {
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+}
+
+
 #learn-more-intro, #mission-intro {
 	padding-left: 5%;
 	padding-right: 5%;
@@ -915,6 +922,7 @@ html {
 #our-story-logo {
 	padding-top: 1em;
 	padding-bottom: 5rem;
+	width: 200px;
 }
 
 #team-subheader {
@@ -953,6 +961,9 @@ html {
 	text-align: center;
 	margin-bottom: 2.5rem;
 }
+
+
+
 
 
 
