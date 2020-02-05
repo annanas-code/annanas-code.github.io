@@ -141,7 +141,7 @@ html {
 	padding-top: 1em;
 }
 
-#checklist-intro, #give-text-1 {
+#checklist-intro, #give-text-1, #instructions-text-1 {
 	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
@@ -156,7 +156,7 @@ html {
 	text-align: left;
 }
 
-#three-parts {
+#three-parts, #instructions-text-2 {
 	text-align: left;
 }
 
@@ -605,7 +605,7 @@ html {
 
 
 #learn-more-bottom-img {
-	max-height: 350px;
+	min-height: 400px;
 	object-fit: cover;
 }
 
@@ -679,7 +679,7 @@ html {
 	font-size: 3em;
 	color: #386E93;
 	}
-}
+
 
 #apply-intro-background {
 	height: 500px;
@@ -741,7 +741,7 @@ html {
 	padding-top: 5rem;
 }
 
-#application-process-header {
+#application-process-header, #instructions-header {
 	text-align: left;
 }
 

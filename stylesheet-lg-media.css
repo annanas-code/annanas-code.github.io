@@ -141,7 +141,7 @@ html {
 	padding-top: 1em;
 }
 
-#checklist-intro, #give-text-1 {
+#checklist-intro, #give-text-1, #instructions-text-1 {
 	margin: 0 5%;
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -599,6 +599,7 @@ html {
 }
 
 #learn-more-bottom-text {
+	max-width: 540px;
 	padding-left: 1em;
 	margin-bottom: 0;
 	color: white;
@@ -612,7 +613,7 @@ html {
 
 
 #learn-more-bottom-img {
-	max-height: 300px;
+	max-height: 400px;
 	object-fit: cover;
 }
 
@@ -819,6 +820,6 @@ html {
 	max-width: 400px;
 }
 
-#application-process-header {
+#application-process-header, #instructions-header {
 	text-align: center;
 }
