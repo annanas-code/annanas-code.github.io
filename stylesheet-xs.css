@@ -211,7 +211,6 @@ html {
 }
 
 #mission-card-body {
-	max-width: 1366; 
 	margin-left: 5%;
 	margin-right: 5%;
 	padding-top: 5rem;
@@ -219,7 +218,7 @@ html {
 	border-top-width: 6px;
 	border-top-style: solid;
 	border-top-color: #386E93;
-	margin-top: 20em;
+	margin-top: 10em;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -262,6 +261,11 @@ html {
 #apply-program-div {
 	padding-bottom: 0;
 	background-color: #ECECEC;
+}
+
+#apply-program-img {
+	height: 400px;
+	object-fit: cover;
 }
 
 
@@ -307,7 +311,7 @@ html {
 }
 
 #rehab-img, #education-img {
-	height: 657px;
+	height: 450px;
 	width: 100%;
 	object-fit: cover;
 }
@@ -676,26 +680,34 @@ html {
 
 
 #learn-more-bottom-img {
-	max-height: 350px;
+	height: 275px;
 	object-fit: cover;
+	border-radius: 0;
 }
 
 
 #learn-more-rehab-img {
-	height: 700px;
+	height: 450px;
 	object-fit: cover;
 }
 
 #learn-more-prevent-img {
-	height: 700px;
+	height: 450px;
 	object-fit: cover;
 }
 
-#learn-more-background, #mission-background {
+#learn-more-background {
 	height: 500px;
 	object-fit: cover;
 	border-radius: 0;
 }
+
+#mission-background {
+	height: 400px;
+	object-fit: cover;
+	border-radius: 0;
+}
+
 
 #training-img {
 	border-radius: 0;
