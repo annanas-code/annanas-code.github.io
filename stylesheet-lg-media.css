@@ -382,7 +382,7 @@ html {
 	margin-top: 3em;
 }
 
-#footer-content {
+#footer-content, #footer-copyright-div {
 	margin: 0 5%;
 }
 

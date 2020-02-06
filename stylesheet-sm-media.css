@@ -358,7 +358,7 @@ html {
 	background-color: #303030;
 }
 
-#footer-content {
+#footer-content, #footer-copyright-div {
 	margin: 0 5%;
 }
 
@@ -850,6 +850,10 @@ html {
 
 #learn-more-prevent-subheader {
 	padding-top: 1em;
+}
+
+#donate-header {
+	text-align: center;
 }
 
 
