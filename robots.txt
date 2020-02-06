@@ -1,0 +1,19 @@
+User-agent: Mediapartners-Google
+Disallow: /
+
+User-agent: AdsBot-Google
+Disallow: /
+
+User-agent: AdsBot-Google-Mobile
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: *
+Allow: /
+
+User-agent: *
+Disallow: /*.pdf$
+
+Sitemap: https://www.kinetikfoundation.org/sitemap.txt
