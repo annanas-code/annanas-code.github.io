@@ -284,16 +284,6 @@ html {
 }
 
 
-.text-link:link, .text-link:visited {
-	color: #386E93;
-	text-decoration: underline;
-}
-
-.text-link:hover, .text-link:active, {
-	color: #386E93;
-	text-decoration: underline;
-}
-
 .card {
 	background-color: white;
 	border: none;

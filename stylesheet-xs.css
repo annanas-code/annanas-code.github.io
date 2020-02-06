@@ -306,6 +306,10 @@ html {
 	padding: 0;
 }
 
+.card-img {
+	border-radius: 0;
+}
+
 .card-title {
 	font-weight: bold;
 }
@@ -369,7 +373,6 @@ html {
 #footer-content, #footer-copyright-div {
 	margin: 0 5%;
 }
-
 
 #footer-copyright-text {
 	padding-top: 48px;
@@ -1005,6 +1008,14 @@ html {
 #download-pdf-link {
 	text-align: center;
 	margin-bottom: 2.5rem;
+}
+
+#footer-donate-link:link, #footer-apply-link:link, #footer-refer-link:link, #footer-donate-link:visited, #footer-apply-link:visited, #footer-refer-link:visited {
+	color: white;
+}
+
+#footer-donate-link:hover, #footer-apply-link:hover, #footer-refer-link:hover, #footer-donate-link:active, #footer-apply-link:active, #footer-refer-link:active {
+	color: white;
 }
 
 
