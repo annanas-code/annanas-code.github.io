@@ -337,11 +337,13 @@ html {
 	font-size: 1.5em;
 	border-radius: 8px;
 	font-family: 'Nunito Sans', sans-serif; !important;
+	border-style: none;
 }
 
 #read-more-button:hover, #read-more-button:active, #download-application-button:hover, #download-application-button:active, #mc-embedded-subscribe:hover, #mc-embedded-subscribe:active, #mc-embedded-subscribe-give:hover, #mc-embedded-subscribe-give:active, #sponsor-button:hover, #sponsor-button:active, #sponsor-button, #learn-more-sponsor-button:active, #learn-more-sponsor-button:hover {
 	border-color: #386E93;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	border-style: none;
 }
 
 #instagram-div {
@@ -443,12 +445,14 @@ html {
 	cursor: pointer;
 	width: 300px;
 	height: 40px;
+	border-style: none;
 }
 
 #mc-embedded-subscribe:hover, #mc-embedded-subscribe:active {
 	border-color: #386E93;
 	background-color: #386E93;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	border-style: none;
 }
 
 #mce-EMAIL-give {
