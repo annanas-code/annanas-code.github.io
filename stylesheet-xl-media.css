@@ -924,3 +924,9 @@ html {
 	height: 1.2em;
  }
 
+ #unsupported-div {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right:auto;
+}
+

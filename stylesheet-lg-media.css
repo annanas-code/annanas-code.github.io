@@ -811,3 +811,9 @@ html {
 #application-process-header, #instructions-header {
 	text-align: center;
 }
+
+#unsupported-div {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right:auto;
+}

@@ -1009,6 +1009,28 @@ html {
 	color: white;
 }
 
+#unsupported-div {
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5em;
+	margin-bottom: 2.5em;
+}
+
+#unsupported-header {
+	font-size: 2em;
+	color: #386E93;
+}
+
+#unsupported-address {
+	line-height: 0.5em;
+	text-align: center;
+}
+
+#unsupported-logo {
+	width: 200px;
+}
+
 
 
 
