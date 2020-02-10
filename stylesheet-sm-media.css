@@ -513,7 +513,7 @@ html {
 }
 
 #what-we-do-background {
-	background-image: url('graphics/what-we-do-background.png');
+	background-image: url('graphics/what-we-do-background.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 100%;
@@ -722,7 +722,7 @@ html {
 }
 
 #application-background {
-	background-image: url('graphics/application-background.png');
+	background-image: url('graphics/application-background.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: right bottom;

@@ -587,13 +587,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: right bottom;
-}
-
-#application-background {
-	background-image: url('graphics/application-background.jpeg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: right bottom;
+	}
 }
 
 #intro-header {
@@ -619,13 +613,6 @@ html {
 #dark-logo-img {
 	width: 200px;
 	padding-top: 4em;
-}
-
-#what-we-do-background {
-	background-image: url('graphics/what-we-do-background.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 75% 100%;
 }
 
 #injuries-link {
@@ -865,7 +852,7 @@ html {
 }
 
 #application-background {
-	background-image: url('graphics/application-background.png');
+	background-image: url('graphics/application-background.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: right bottom;
