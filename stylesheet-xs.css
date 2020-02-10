@@ -586,7 +586,7 @@ html {
 	background-image: url('graphics/what-we-do-background.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: right bottom;
+	background-position: 75% 100%;
 	}
 }
 
