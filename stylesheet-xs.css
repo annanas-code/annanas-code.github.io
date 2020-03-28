@@ -1030,12 +1030,77 @@ html {
 	font-family: 'Nunito Sans', sans-serif; !important;
 }
 
+#injury-screen-subheader {
+	color: #386E93;
+	font-weight: bold;
+	font-size: 2em;
+	padding-top: 0;
+}
 
+#injury-screen-hamstrings, #injury-screen-core, #injury-screen-ankle {
+	font-size: 2em;
+	font-weight: bold;
+}
 
+.injury-screen-box {
+ 	border: none;
+	padding: 0.25em;
+	max-width: 90vw;
+}
 
+.injury-screen-divider {
+	flex-grow: 1;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #386E93;
+}
 
+.injury-screen-text-1 {
+	text-align: left;
+	margin: 0 5%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
 
+.injury-screen-text-2 {
+	margin: 0 5%;
+	text-align: left;
+}
 
+.injury-screen-exercise {
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	font-size: 1.75em;
+}
 
+#injury-screen-intro-div {
+	padding-bottom: 0;
+}
 
+#injury-screen-exercise-div {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.injury-screen-video-div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.video-iframe {
+	width: 426px; 
+	height: 240px;
+}
+
+.video-iframe-bottom {
+	margin-bottom: -6px;
+}
+
+#injury-screen-video-div-ankle {
+	padding-bottom: 5rem;
+}
+
+#injury-screen-core-div {
+	background-color: #ECECEC;
+}
 

@@ -847,5 +847,13 @@ html {
 	margin-right: 10%;
 }
 
+#injury-screen-subheader {
+	color: #386E93;
+	font-weight: bold;
+}
 
+.video-iframe {
+	width: 691px; 
+	height: 389px;
+}
 

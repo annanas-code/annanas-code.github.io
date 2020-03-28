@@ -817,3 +817,8 @@ html {
 	margin-left: auto;
 	margin-right:auto;
 }
+
+#injury-screen-subheader {
+	color: #386E93;
+	font-weight: bold;
+}

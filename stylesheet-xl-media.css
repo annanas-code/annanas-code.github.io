@@ -930,3 +930,25 @@ html {
 	margin-right:auto;
 }
 
+#injury-screen-subheader {
+	color: #386E93;
+	font-weight: bold;
+}
+
+.injury-screen-text-1 {
+	max-width: 1080px; 
+	margin: auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.injury-screen-text-2 {
+	max-width: 1080px; 
+	margin: auto;
+}
+
+.injury-screen-video-div {
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
