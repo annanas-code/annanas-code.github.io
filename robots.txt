@@ -5,6 +5,6 @@ User-agent: *
 Disallow: /*.pdf$
 
 User-agent: *
-Allow: /
+Disallow: /injury-screen-track-xc.html
 
 Sitemap: https://www.kinetikfoundation.org/sitemap.txt
