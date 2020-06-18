@@ -102,11 +102,36 @@
   <body>		
    <div class="div" id="give-div">
    <h1 class="what-we-do-header" id="donate-header">Donate to the Kinetik Foundation</h1>
-   <div class="text-center">
+  <!-- <div class="text-center">
    <img src="graphics/gift.jpeg" id="gift-img" alt="Gift box icon">
-</div>
-   <p class="what-we-do-text" id="give-text-1">Your gifts provide tremendous impact to the young athletes we serve. Soon, we will be able to accept one-time and recurring donations through our website.</p>
-	   <p class="what-we-do-text" id="give-text-2">To receive a notification when you are able to make a tax-deductible donation online, please join our newsletter below.</p>
+</div> -->
+
+<div id="CustomDonationsForm"></div>
+
+<script>
+  var cdscript = document.createElement('script');
+  cdscript.onload = function () {
+    CustomDonations.BuildForm({
+      account: '43c22ae1-4444-4cbd-b892-bfa41ed791e3',
+      form: '5132c6ae-fa55-4c2f-b241-84ce8883b94e',
+      allocation: null, /* optional. Use an allocation ID, like 'AH664' (w/ quotes) to be default selected on form load */
+      memberId: null, /* optional. If the current user is authenticated, you can insert their user ID, like '02943' (with quotes) */
+      apiVersion: 'v1',
+      useReCaptcha: 'true',
+      interval: null, /* if null, then user must select one time or recurring (if enabled). Optionally can set to 'once', 'monthly','quarterly', or 'yearly' */
+      loadingText: 'Loading Secure Form...',
+      paymentVersion: 2, /*  1: for modal payment window. 2: for inline payment with Google/Apple Pay options */
+      baseUrl: 'https://api.customdonations.com',
+      mode: 'test' /* change to 'test' to run in test mode. Use card 4242 4242 4242 4242 for testing. */
+    });
+  };
+  cdscript.src = "https://api.customdonations.com/v1/js/form-builder.min.js?v=" + new Date().getTime();
+  document.head.appendChild(cdscript);
+</script>
+
+
+   <p class="what-we-do-text" id="give-text-1">We are using your donation to fund the legal formation of a 501(c)3 nonprofit.</p>
+	   <p class="what-we-do-text" id="give-text-2">To receive notification once you are able to make a tax-deductible gift, please join our newsletter below.</p>
 		
 				<div class="text-center" id="mc_embed_signup">
 				<form action="https://gmail.us20.list-manage.com/subscribe/post?u=7736534d20c2641a1fae60a17&amp;id=385d5d96fc&SIGNUP=donate" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -119,6 +144,8 @@
 				    </div>
 				</form>
 				</div>
+
+
 	   	   </div>	
 	   </div>
 	   </div>
