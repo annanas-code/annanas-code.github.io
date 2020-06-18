@@ -1109,21 +1109,32 @@ html {
 }
 
 #cd-review-submit { 
-		color: white;
-		background-color: #386E93;
-		border-color: #386E93;
-		box-shadow: none;
-		font-size: 1.25em;
-		font-family: 'Nunito Sans', sans-serif; !important;
-		margin-top: 0.5em;
-		margin-bottom: 1em;
-	}
-	
-	#cd-review-submit:hover, #cd-review-submit:active {
-		background-color: #386E93;
-		border-color: white;
-		font-size: 1.25em;
-		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-		font-family: 'Nunito Sans', sans-serif; !important;
-	}
+	color: white;
+	background-color: #386E93;
+	border-color: #386E93;
+	box-shadow: none;
+	font-size: 1.25em;
+	font-family: 'Nunito Sans', sans-serif; !important;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
 }
+	
+#cd-review-submit:hover, #cd-review-submit:active {
+	background-color: #386E93;
+	border-color: white;
+	font-size: 1.25em;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+.h2 {
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
+#cdsetdonationamt1, #cdsetdonationamt2, #cdsetdonationamt3, #cdsetdonationamt4, #cd-donation-input-wrap {
+	color: #414141;
+	box-shadow: none;
+	font-size: 1.25em;
+	font-family: 'Nunito Sans', sans-serif; !important;
+}
+
