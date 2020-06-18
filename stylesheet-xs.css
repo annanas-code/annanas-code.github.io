@@ -133,7 +133,7 @@ html {
 	padding-top: 1em;
 }
 
-#checklist-intro, #give-text-1, #instructions-text-1 {
+#checklist-intro, #instructions-text-1 {
 	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
@@ -142,6 +142,10 @@ html {
 
 #give-text-1 {
 	text-align: left;
+	padding-bottom: 0;
+	max-width: 1366; 
+	margin: 0 5%;
+	padding-top: 1em;
 }
 
 #give-text-2 {
@@ -1108,6 +1112,7 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 	width: 400px;
+	margin-top: 0;
 }
 
 #cd-review-submit { 
@@ -1122,6 +1127,7 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 	width: 400px;
+	border-radius: 8px;
 }
 	
 #cd-review-submit:hover, #cd-review-submit:active, #cd-process-card:hover, #cd-process-card:active {
@@ -1143,6 +1149,7 @@ html {
 	box-shadow: none;
 	font-size: 1.2em;
 	font-family: 'Nunito Sans', sans-serif !important;
+	border-radius: 8px;
 }
 
 .cd-powered-by {
@@ -1162,8 +1169,53 @@ html {
 	font-family: 'Nunito Sans', sans-serif !important;
 	margin-top: 0.5em;
 	margin-bottom: 1em;
+	border-radius: 8px;
 }
 
 #root {
 	font-family: 'Nunito Sans', sans-serif !important;
 }
+
+.cd-donation-currency {
+	font-family: 'Nunito Sans', sans-serif !important;
+	font-size: 1.2em;
+	border-left: none !important;
+	border-top: none !important;
+	border-bottom: none !important;
+}
+
+.cd-donation-currency-input {
+	font-family: 'Nunito Sans', sans-serif !important;
+	font-size: 1.2em;
+	border: none !important;
+}
+
+.cd-g {
+	border-radius: 8px;
+}
+
+.cd-u-1-8, .cd-u-7-8 {
+	border: none;
+	border-radius: 8px;
+}
+
+.cd-donation-input-wrap {
+	border-radius: 8px;
+	border: solid 1px #d9d9d9;
+	overflow: hidden;
+}
+
+.cd-u-1 {
+	width: 100% !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+#cd-giving-options h2 {
+	font-family: 'Nunito Sans', sans-serif !important;
+	color: #386E93;
+	font-weight: bold;
+}
+
+
+

@@ -146,11 +146,18 @@ html {
 	padding-top: 1em;
 }
 
-#checklist-intro, #give-text-1, #instructions-text-1 {
+#checklist-intro, #instructions-text-1 {
 	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
 	padding-bottom: 1em;
+}
+
+#give-text-1 {
+	max-width: 1366; 
+	margin: 0 5%;
+	padding-top: 1em;
+	padding-bottom: 0;
 }
 
 #checklist-intro {
