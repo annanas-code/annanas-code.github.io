@@ -1133,7 +1133,7 @@ html {
 	font-size: 1.2em;
 }
 
-#cdsetdonationamt1, #cdsetdonationamt2, #cdsetdonationamt3, #cdsetdonationamt4, #cd-donation-input-wrap {
+#cdsetdonationamt1, #cdsetdonationamt2, #cdsetdonationamt3, #cdsetdonationamt4, #cd-donation-input-wrap, .cd-donation-currency, #cd-gift-amt {
 	color: #303030;
 	box-shadow: none;
 	font-size: 1.2em;
