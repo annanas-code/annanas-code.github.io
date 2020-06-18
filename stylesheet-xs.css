@@ -1121,20 +1121,22 @@ html {
 	
 #cd-review-submit:hover, #cd-review-submit:active {
 	background-color: #386E93;
-	border-color: white;
+	border-color: #386E93;
 	font-size: 1.25em;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 	font-family: 'Nunito Sans', sans-serif; !important;
 }
 
-.h2 {
+.cd-form-block-sections h2 {
 	font-family: 'Nunito Sans', sans-serif; !important;
+	text-align: center;
+	font-size: 1.2em;
 }
 
 #cdsetdonationamt1, #cdsetdonationamt2, #cdsetdonationamt3, #cdsetdonationamt4, #cd-donation-input-wrap {
-	color: #414141;
+	color: #303030;
 	box-shadow: none;
-	font-size: 1.25em;
+	font-size: 1.2em;
 	font-family: 'Nunito Sans', sans-serif; !important;
 }
 
