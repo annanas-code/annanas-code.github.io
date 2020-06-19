@@ -105,10 +105,10 @@
       apiVersion: 'v1',
       useReCaptcha: 'true',
       interval: null, /* if null, then user must select one time or recurring (if enabled). Optionally can set to 'once', 'monthly','quarterly', or 'yearly' */
-      loadingText: 'Loading Secure Form...',
+      loadingText: 'Loading...',
       paymentVersion: 2, /*  1: for modal payment window. 2: for inline payment with Google/Apple Pay options */
       baseUrl: 'https://api.customdonations.com',
-      mode: 'test' /* change to 'test' to run in test mode. Use card 4242 4242 4242 4242 for testing. */
+      mode: 'live' /* change to 'test' to run in test mode. Use card 4242 4242 4242 4242 for testing. */
     });
   };
   cdscript.src = "https://api.customdonations.com/v1/js/form-builder.min.js?v=" + new Date().getTime();
