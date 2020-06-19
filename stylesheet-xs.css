@@ -1129,7 +1129,6 @@ html {
 #cd-review-submit:hover, #cd-review-submit:active, #cd-process-card:hover, #cd-process-card:active {
 	background-color: #386E93;
 	border-color: #386E93;
-	font-size: 1.25em;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 	font-family: 'Nunito Sans', sans-serif !important;
 }
@@ -1208,13 +1207,13 @@ html {
 	font-family: 'Nunito Sans', sans-serif !important;
 	color: #386E93 !important;
 	font-weight: bold !important;
-	font-size: 1.25rem !important;
+	font-size: 1.5rem !important;
 }
 
 .cd-form-block-sections h2, .cd-form h2 {
 	font-family: 'Nunito Sans', sans-serif !important;
 	text-align: center !important;
-	font-size: 1.25rem !important;
+	font-size: 1.5rem !important;
 	color: #386E93 !important;
 	font-weight: bold !important;
 	width: 320px !important;
@@ -1229,4 +1228,32 @@ html {
 #cd-gift-totals {
 	padding: 0 !important;
 	width: 100% !important;
+}
+
+.cd-table-fw {
+	border-bottom-width: 8px;
+	border-bottom-style: solid;
+	border-bottom-color: #386E93;
+}
+
+#cd-select-edit-fees {
+	border-radius: 8px !important;
+}
+
+#cd-save-edit-fees {
+	border-radius: 8px !important;
+}
+
+#cd-save-edit-fees:hover, #cd-save-edit-fees:active {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#card-element {
+	border-radius: 8px !important;
+	padding-top: 14px !important;
+	padding-bottom: 14px !important;
+}
+
+#Donation_Email {
+	border-radius: 8px !important;
 }
