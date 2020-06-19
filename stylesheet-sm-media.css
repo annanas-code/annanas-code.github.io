@@ -880,3 +880,10 @@ html {
 	width: 400px !important;
 }
 
+.cd-form-block-sections h2, .cd-form h2 {
+	width: 400px !important;
+}
+
+.cd-gift-review {
+	width: 400px !important;
+}

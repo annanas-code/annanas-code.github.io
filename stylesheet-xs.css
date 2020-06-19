@@ -1102,8 +1102,14 @@ html {
 	margin-top: 0;
 }
 
-.cd-form {
+.cd-form-page-1 {
 	width: 320px !important;
+}
+
+.cd-gift-review {
+	width: 320px !important;
+	margin-left: auto !important; 
+	margin-right: auto !important;
 }
 
 #cd-review-submit { 
@@ -1111,7 +1117,7 @@ html {
 	background-color: #386E93;
 	border-color: #386E93;
 	box-shadow: none;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	font-family: 'Nunito Sans', sans-serif !important;
 	margin-top: 0.5em;
 	margin-bottom: 1em;
@@ -1126,12 +1132,6 @@ html {
 	font-size: 1.25em;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 	font-family: 'Nunito Sans', sans-serif !important;
-}
-
-.cd-form-block-sections h2, .cd-form h2 {
-	font-family: 'Nunito Sans', sans-serif !important;
-	text-align: center;
-	font-size: 1.2em;
 }
 
 #cdsetdonationamt1, #cdsetdonationamt2, #cdsetdonationamt3, #cdsetdonationamt4, #cd-donation-input-wrap {
@@ -1155,7 +1155,7 @@ html {
 	background-color: #386E93;
 	border-color: #386E93;
 	box-shadow: none;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	font-family: 'Nunito Sans', sans-serif !important;
 	margin-top: 0.5em;
 	margin-bottom: 1em;
@@ -1189,26 +1189,44 @@ html {
 .cd-u-1-8, .cd-u-7-8 {
 	border: none;
 	border-radius: 8px;
-	overflow: hidden !important;
 }
 
 .cd-donation-input-wrap {
 	border-radius: 8px;
 	border: solid 1px #d9d9d9;
+	overflow: hidden !important;
 }
 
 .cd-u-1 {
 	padding-left: 4px !important;
 	padding-right: 4px !important;
+	width: 100% !important;
+}
 }
 
 #cd-giving-options h2 {
 	font-family: 'Nunito Sans', sans-serif !important;
-	color: #386E93;
-	font-weight: bold;
+	color: #386E93 !important;
+	font-weight: bold !important;
+	font-size: 1.25rem !important;
+}
+
+.cd-form-block-sections h2, .cd-form h2 {
+	font-family: 'Nunito Sans', sans-serif !important;
+	text-align: center !important;
+	font-size: 1.25rem !important;
+	color: #386E93 !important;
+	font-weight: bold !important;
+	width: 320px !important;
+	margin-left: auto !important; 
+	margin-right: auto !important;
 }
 
 #cd-gift-amt {
 	padding: 3px !important;
 }
 
+#cd-gift-totals {
+	padding: 0 !important;
+	width: 100% !important;
+}
