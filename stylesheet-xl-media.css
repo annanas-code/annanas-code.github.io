@@ -957,3 +957,8 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#CustomDonationsForm {
+	max-width: 1080px; 
+	margin: auto;
+}

@@ -1257,3 +1257,12 @@ html {
 #Donation_Email {
 	border-radius: 8px !important;
 }
+
+#cd-form-success {
+	margin-top: 1em !important;
+	text-align: center !important;
+}
+
+#CustomDonationsForm {
+	margin: 0 5%;
+}

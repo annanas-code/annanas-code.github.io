@@ -123,26 +123,22 @@ html {
 }
 
 #our-team-intro {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-bottom: 4em;
 	padding-top: 1em;
 }
 
 #apply-intro {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
 }
 
 #what-we-do-intro {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
 }
 
 #checklist-intro, #instructions-text-1 {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -150,7 +146,6 @@ html {
 
 #give-text-1 {
 	text-align: center;
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
 	padding-bottom: 0;
@@ -165,7 +160,6 @@ html {
 }
 
 #give-text-2 {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-bottom: 1em;
 	text-align: center;
@@ -173,7 +167,6 @@ html {
 
 
 .checklist-body {
-	max-width: 1366; 
 	margin: 0 5%;
 }
 
