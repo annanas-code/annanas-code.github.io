@@ -115,26 +115,22 @@ html {
 }
 
 #our-team-intro {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-bottom: 4em;
 	padding-top: 1em;
 }
 
 #apply-intro {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
 }
 
 #what-we-do-intro {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
 }
 
 #checklist-intro, #instructions-text-1 {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -143,20 +139,17 @@ html {
 #give-text-1 {
 	text-align: left;
 	padding-bottom: 0;
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
 }
 
 #give-text-2 {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-bottom: 1em;
 	text-align: left;
 }
 
 .checklist-body {
-	max-width: 1366; 
 	margin: 0 5%;
 }
 
@@ -174,13 +167,11 @@ html {
 }
 
 #what-we-do-subheader-rehab {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
 }
 
 #what-we-do-subheader-education {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 1em;
 }
@@ -192,19 +183,16 @@ html {
 }
 
 #what-we-do-text-rehab {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 0.5em;
 }
 
 #what-we-do-text-education {
-	max-width: 1366; 
 	margin: 0 5%;
 	padding-top: 0.5em;
 }
 
 .what-we-do-text-end {
-	max-width: 1366;
 	margin: 0 5%;
 	padding-bottom: 2em;
 }
@@ -1111,8 +1099,11 @@ html {
 #cd-giving-form-wrapper {
 	margin-left: auto;
 	margin-right: auto;
-	width: 400px;
 	margin-top: 0;
+}
+
+.cd-form {
+	width: 320px !important;
 }
 
 #cd-review-submit { 
@@ -1126,7 +1117,6 @@ html {
 	margin-bottom: 1em;
 	margin-left: auto;
 	margin-right: auto;
-	width: 400px;
 	border-radius: 8px;
 }
 	
@@ -1178,16 +1168,18 @@ html {
 
 .cd-donation-currency {
 	font-family: 'Nunito Sans', sans-serif !important;
-	font-size: 1.2em;
+	font-size: 1.2em !important;
 	border-left: none !important;
 	border-top: none !important;
 	border-bottom: none !important;
+	height: 100% !important;
 }
 
 .cd-donation-currency-input {
 	font-family: 'Nunito Sans', sans-serif !important;
-	font-size: 1.2em;
+	font-size: 1.2em !important;
 	border: none !important;
+	height: 100% !important;
 }
 
 .cd-g {
@@ -1197,18 +1189,17 @@ html {
 .cd-u-1-8, .cd-u-7-8 {
 	border: none;
 	border-radius: 8px;
+	overflow: hidden !important;
 }
 
 .cd-donation-input-wrap {
 	border-radius: 8px;
 	border: solid 1px #d9d9d9;
-	overflow: hidden;
 }
 
 .cd-u-1 {
-	width: 100% !important;
-	padding-left: 0 !important;
-	padding-right: 0 !important;
+	padding-left: 4px !important;
+	padding-right: 4px !important;
 }
 
 #cd-giving-options h2 {
@@ -1217,5 +1208,7 @@ html {
 	font-weight: bold;
 }
 
-
+#cd-gift-amt {
+	padding: 3px !important;
+}
 
