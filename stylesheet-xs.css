@@ -1025,12 +1025,12 @@ html {
 #injury-screen-subheader {
 	color: #386E93;
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 2rem;
 	padding-top: 0;
 }
 
-#injury-screen-hamstrings, #injury-screen-core, #injury-screen-ankle {
-	font-size: 2em;
+#injury-screen-hamstrings, #injury-screen-core, #injury-screen-shoulder, #injury-screen-ankle {
+	font-size: 2rem;
 	font-weight: bold;
 }
 
@@ -1092,7 +1092,7 @@ html {
 	padding-bottom: 5rem;
 }
 
-#injury-screen-core-div {
+#injury-screen-core-div, #injury-screen-ankle-div {
 	background-color: #ECECEC;
 }
 
