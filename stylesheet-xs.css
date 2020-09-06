@@ -19,6 +19,14 @@ html {
 	padding-right: 0;
 }
 
+.nav-link {
+	padding-top: 1em;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
 
 .navbar-nav .nav-item .nav-link:link, .nav-link:link,
 .navbar-nav .nav-item .nav-link:visited, .nav-link:visited {
@@ -44,6 +52,7 @@ html {
 	font-family: 'Nunito Sans', sans-serif !important;
 	margin-top: 0.5em;
 	margin-bottom: 1em;
+	border-radius: 8px;
 }
 
 #give-button:hover, #give-button:active {
