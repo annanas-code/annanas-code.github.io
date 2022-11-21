@@ -1122,7 +1122,7 @@ html {
 	margin-right: auto !important;
 }
 
-#cd-review-submit { 
+#cd-review-submit, #cd-add-payment { 
 	color: white;
 	background-color: #1D4F90;
 	border-color: #1D4F90;
@@ -1136,7 +1136,7 @@ html {
 	border-radius: 8px;
 }
 	
-#cd-review-submit:hover, #cd-review-submit:active, #cd-process-card:hover, #cd-process-card:active {
+#cd-review-submit:hover, #cd-review-submit:active, #cd-process-card:hover, #cd-process-card:active, #cd-add-payment:hover, #cd-add-payment:active, {
 	background-color: #1D4F90;
 	border-color: #1D4F90;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
