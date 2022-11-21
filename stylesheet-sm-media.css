@@ -3,7 +3,7 @@ html {
 }
 
 #main-header {
-	background-color: #303030;
+	background-color: white;
 	width: 100%;
 	border-radius: 0;
 	height: 7rem;
@@ -15,7 +15,7 @@ html {
 
 .navbar {
 	margin: 0 5%;
-	background-color: #303030;
+	background-color: white;
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -31,14 +31,14 @@ html {
 
 .navbar-nav .nav-item .nav-link:link, .nav-link:link,
 .navbar-nav .nav-item .nav-link:visited, .nav-link:visited {
-	color: white;
+	color: #1D4F90;
 	font-size: 1em;
 	font-family: 'Nunito Sans', sans-serif; !important;
 }
 
 .navbar-nav .nav-item .nav-link:hover, .nav-link:hover,
 .navbar-nav .nav-item .nav-link:active, .nav-link:active {
-	color: white;
+	color: #1D4F90;
 	font-size: 1em;
 	text-decoration: underline;
 	font-family: 'Nunito Sans', sans-serif; !important;
@@ -46,15 +46,15 @@ html {
 
 #give-button {
 	color: white;
-	background-color: #386E93;
-	border-color: #386E93;
+	background-color: #3D679F;
+	border-color: #3D679F;
 	box-shadow: none;
 	font-size: 1em;
 	font-family: 'Nunito Sans', sans-serif; !important;
 }
 
 #give-button:hover, #give-button:active {
-	background-color: #386E93;
+	background-color: #3D679F;
 	border-color: white;
 	font-size: 1em;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -89,9 +89,9 @@ html {
 }
 
 #learn-more-button {
-	color: #303030;
-	border-color: #FADD4F;
-	background-color: #FADD4F;
+	color: #031E3F;
+	border-color: #CDD7E5;
+	background-color: #CDD7E5;
 	box-shadow: none;
 	padding-left: 2em;
 	padding-right: 2em;
@@ -171,7 +171,7 @@ html {
 }
 
 .what-we-do-header {
-	color: #386E93;
+	color: #1D4F90;
 	font-size: 4em;
 	font-family: 'Nunito Sans', sans-serif; !important;
 	max-width: 1366; 
@@ -179,7 +179,7 @@ html {
 }
 
 .what-we-do-subheader {
-	color: #303030;
+	color: #031E3F;
 	font-size: 2em;
 	font-family: 'Nunito Sans', sans-serif; !important;
 }
@@ -197,7 +197,7 @@ html {
 }
 
 .what-we-do-text {
-	color: #303030;
+	color: #031E3F;
 	font-size: 1.2em;
 	font-family: 'Nunito Sans', sans-serif; !important;
 }
@@ -228,7 +228,7 @@ html {
 	background-color: white;
 	border-top-width: 6px;
 	border-top-style: solid;
-	border-top-color: #386E93;
+	border-top-color: #1D4F90;
 	margin-top: 20em;
 	position: absolute;
 	top: 0;
@@ -239,7 +239,7 @@ html {
 #mission-subheader {
 	font-family: 'Nunito Sans', sans-serif; !important;
 	text-align: center;
-	color: #386E93;
+	color: #1D4F90;
 	font-size: 4em;
 	padding-left: 0.1em;
 	padding-right: 0.1em;
@@ -249,7 +249,7 @@ html {
 
 
 .list-text {
-	color: #303030;
+	color: #031E3F;
 	font-size: 1.2em;
 	max-width: 1366; 
 	margin: 0 5%;
@@ -258,7 +258,7 @@ html {
 }
 
 #blog-div {
-	background-color: #ECECEC;
+	background-color: #EFF2F7;
 	padding-top: 8em;
 }
 
@@ -300,8 +300,8 @@ html {
 
 #read-more-button, #download-application-button, #mc-embedded-subscribe-give, #sponsor-button {
 	color: white;
-	border-color: #386E93;
-	background-color: #386E93;
+	border-color: #3D679F;
+	background-color: #3D679F;
 	box-shadow: none;
 	padding-left: 2em;
 	padding-right: 2em;
@@ -314,7 +314,7 @@ html {
 }
 
 #read-more-button:hover, #read-more-button:active, #download-application-button:hover, #download-application-button:active, #mc-embedded-subscribe:hover, #mc-embedded-subscribe:active, #mc-embedded-subscribe-give:hover, #mc-embedded-subscribe-give:active, #sponsor-button:hover, #sponsor-button:active, #sponsor-button, #learn-more-sponsor-button:active, #learn-more-sponsor-button:hover {
-	border-color: #386E93;
+	border-color: #3D679F;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -340,7 +340,7 @@ html {
 }
 
 .footer-div {
-	background-color: #303030;
+	background-color: #011024;
 }
 
 #footer-content, #footer-copyright-div {
@@ -395,8 +395,8 @@ html {
 
 #mc-embedded-subscribe {
 	color: white;
-	border-color: #386E93;
-	background-color: #386E93;
+	border-color: #3D679F;
+	background-color: #3D679F;
 	box-shadow: none;
 	padding-left: 6em;
 	padding-right: 6em;
@@ -411,14 +411,14 @@ html {
 }
 
 #mc-embedded-subscribe:hover, #mc-embedded-subscribe:active {
-	border-color: #386E93;
-	background-color: #386E93;
+	border-color: #3D679F;
+	background-color: #3D679F;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #mce-EMAIL-give {
-	color: #303030;
-	border-color: #303030;
+	color: #031E3F;
+	border-color: #031E3F;
 	border-width: 0.5px;
 	box-shadow: none;
 	padding-top: 1em;
@@ -456,7 +456,7 @@ html {
 
 
 .list-text {
-	color: #303030;
+	color: #031E3F;
 	font-size: 1.2em;
 	font-family: 'Nunito Sans', sans-serif; !important;
 }
@@ -468,13 +468,13 @@ html {
 	background-color: white;
 	border-bottom-width: 8px;
 	border-bottom-style: solid;
-	border-bottom-color: #386E93;
+	border-bottom-color: #1D4F90;
 }
 
 #values-subheader {
 	font-family: 'Nunito Sans', sans-serif; !important;
 	text-align: center;
-	color: #386E93;
+	color: #1D4F90;
 	font-size: 4em;
 	max-width: 1366; 
 	margin: 0 5%;
@@ -533,7 +533,7 @@ html {
 	background-color: white;
 	border-bottom-width: 8px;
 	border-bottom-style: solid;
-	border-bottom-color: #386E93;
+	border-bottom-color: #1D4F90;
 	margin-top: 4em;
 	padding-bottom: 0.5em;
 	position: absolute;
@@ -554,7 +554,7 @@ html {
 #learn-more-subheader {
 	font-family: 'Nunito Sans', sans-serif; !important;
 	text-align: center;
-	color: #386E93;
+	color: #1D4F90;
 	font-size: 3em;
 	font-weight: normal;
 	padding-bottom: 0.5em;
@@ -620,19 +620,20 @@ html {
 
 #learn-more-sponsor-button {
 	color: white;
-	border-color: #386E93;
-	background-color: #386E93;
+	border-color: none;
+	background-color: #3D679F;
 	box-shadow: none;
 	padding-left: 2em;
 	padding-right: 2em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
-	margin-top: 1.5em;
+	margin-top: 2em;
 	font-size: 1.75em;
 	border-radius: 8px;
 	font-family: 'Nunito Sans', sans-serif; !important;
 	max-width: 350px;
 }
+
 
 #learn-more-card-body {
 	margin-left: 5%;
@@ -641,10 +642,10 @@ html {
 	background-color: white;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: #386E93;
+	border-bottom-color: #1D4F90;
 	border-top-width: 6px;
 	border-top-style: solid;
-	border-top-color: #386E93;
+	border-top-color: #1D4F90;
 	padding-bottom: 5rem;
 	position: absolute;
 	top: 0;
@@ -661,7 +662,7 @@ html {
 	padding-right: 5%;
 	text-align: left;
 	font-size: 3em;
-	color: #386E93;
+	color: #1D4F90;
 	}
 
 
@@ -671,7 +672,7 @@ html {
 }
 
 #apply-program-div {
-	background-color: #ECECEC;
+	background-color: #EFF2F7;
 }
 
 #apply-intro-card-body {
@@ -696,7 +697,7 @@ html {
 
 #apply-kinetik-subheader {
 	font-size: 2.25em;
-	color: #386E93;
+	color: #1D4F90;
 	padding-bottom: 0.25em;
 	text-align: left;
 }
@@ -709,7 +710,7 @@ html {
 
 #application-divider {
 	border-width: 1px;
-	border-color: #386E93;
+	border-color: #1D4F90;
 	border-style: solid;
 	max-width: 1366;
 	margin: 0 5%;
@@ -739,9 +740,9 @@ html {
 	background-color: white;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #303030;
+	border-color: #031E3F;
 	border-bottom-width: 6px;
-	border-bottom-color: #386E93;
+	border-bottom-color: #1D4F90;
 	margin-left: 0.25em;
 	margin-right: 0.25em;
 	height: 320px;
@@ -754,7 +755,7 @@ html {
 }
 
 .application-box-header {
-	color: #386E93;
+	color: #1D4F90;
 }
 
 
@@ -769,7 +770,7 @@ html {
 	font-size: 60px;
 	padding-top: 0.25em;
 	padding-bottom: 0.25em;
-	color: #303030;
+	color: #031E3F;
 }
 
 #download-application-button {
@@ -779,7 +780,7 @@ html {
 .our-story-subheader {
 	display: flex;
 	align-items: center;
-	color: #386E93;
+	color: #1D4F90;
 	font-size: 4em;
 	font-family: 'Nunito Sans', sans-serif; !important;
 	padding-bottom: 0.75em;
@@ -790,13 +791,13 @@ html {
 	flex-grow: 1;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: #386E93;
+	border-bottom-color: #1D4F90;
 }
 
 #our-story-box {
 	border-width: 2px;
 	border-style: solid;
-	border-color: #386E93;
+	border-color: #1D4F90;
 	padding: 0.25em;
 }
 
@@ -805,7 +806,7 @@ html {
 	margin: 0 15%;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: #386E93;
+	border-bottom-color: #1D4F90;
 }
 
 .our-story-intro {
@@ -823,7 +824,7 @@ html {
 #team-subheader {
 	font-family: 'Nunito Sans', sans-serif; !important;
 	text-align: center;
-	color: #386E93;
+	color: #1D4F90;
 	font-size: 4em;
 	padding-left: 0.1em;
 	padding-right: 0.1em;
@@ -846,7 +847,7 @@ html {
 }
 
 #injury-screen-subheader {
-	color: #386E93;
+	color: #1D4F90;
 	font-weight: bold;
 	font-size: 2.5em;
 }
