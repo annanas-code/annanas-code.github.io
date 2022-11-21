@@ -1275,6 +1275,7 @@ html {
 
 #CustomDonationsForm {
 	margin: 0 5%;
+	background-color: white;
 }
 
 #amznCharityBanner {
@@ -1283,8 +1284,6 @@ html {
     justify-content: center;
 }
 
-#give-div {
-	background-color: #EFF2F7;
-}
+
 
 
